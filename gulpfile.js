@@ -78,6 +78,6 @@ gulp.task('nodemon', ['build'], () => {
     nodemon({
         script: entryPoint,
         env: { 'NODE_ENV': 'development' },
-        tasks: ['build']
+        tasks: []
     })
 })

@@ -40,3 +40,8 @@ build
 
 #Ignore reports
 reports
+
+#vim
+.*.*.*.swp
+.*.*.swp
+.*.swp
